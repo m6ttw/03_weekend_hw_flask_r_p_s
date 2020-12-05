@@ -1,5 +1,6 @@
 from app import app
-# from src.game import *
+# from app.models.game import Game
+# from app.models.player import Player
 
 @app.route("/")
 def index():
