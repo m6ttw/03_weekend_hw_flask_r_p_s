@@ -1,5 +1,5 @@
 import unittest
-from models.player import Player
+from app.models.player import Player
 
 class TestPlayer(unittest.TestCase):
 
