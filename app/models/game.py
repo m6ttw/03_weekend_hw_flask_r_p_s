@@ -3,7 +3,6 @@ from app.models.player import Player
 class Game():
 
     def get_winner(player_1, player_2):
-
         if player_1.choice == "rock" and player_2.choice == "scissors":
             return player_1
         elif player_1.choice == "scissors" and player_2.choice == "paper":
@@ -12,5 +11,4 @@ class Game():
             return player_1
         elif player_1.choice == player_2.choice:
             return None
-        
         return player_2
