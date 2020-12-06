@@ -1,0 +1,14 @@
+body > ul {
+    background-color: rgb(118, 192, 122);
+    text-align: center;
+    list-style-type: none;
+}
+
+body > h1 {
+    text-align: center;
+    color: rgb(22, 139, 41);
+}
+
+body > p {
+    color: rgb(235, 235, 235);
+}
